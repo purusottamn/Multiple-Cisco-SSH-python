@@ -1,0 +1,13 @@
+vlan 10
+name 3rd-floor-data-vlan
+interface range fa0/5-40
+shutdown
+no switchport mode access vlan 1
+switchport access vlan 20
+no shut
+int port-channel 3
+switchport trunk allowed vlan add 10
+end
+show int status | in 10 
+show int trunk
+wri mem

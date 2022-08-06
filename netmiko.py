@@ -19,6 +19,7 @@ device = {
 }
 
 #open the source file where configuration are store. This file must be saved in same folder with the scripts
+#see config.txt
 with open('config.txt' as f:
   lines = f.read().splitlines()
 print(lines)
@@ -26,6 +27,7 @@ print("")
 
 #define the list of all devices where the config will be applied to. 
 #host_list.txt file must be saved in same folder. this file contains the IP address of the devices
+#see host_list_txt
 all-devices = open("host_list.txt")
 
 #applied the config file and print the output

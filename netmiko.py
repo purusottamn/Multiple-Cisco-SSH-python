@@ -12,7 +12,6 @@ username = input("Enter your username: ')
 password = getpass("Enter your password: ')
 
 #Specificy device type, this scripts is written for the Cisco IOS switches only
-
 device = {
   'device_type': 'cisco_ios',
   'username': username,

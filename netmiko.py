@@ -20,7 +20,7 @@ device = {
 
 #open the source file where configuration are store. This file must be saved in same folder with the scripts
 #see config.txt
-with open('config.txt' as f:
+with open('config.txt') as f:
   lines = f.read().splitlines()
 print(lines)
 print("")

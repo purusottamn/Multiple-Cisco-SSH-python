@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 #all the devices must be reachable for the configuration.
-#if device is unreachable on the scripts will failed to continue.
+#if device is unreachable the scripts will stop at device that is unreachable.
 #config are applied in chronological order, only devices after the failed one are affected. all previous devices will have config. 
 
 #import ConnectHandler

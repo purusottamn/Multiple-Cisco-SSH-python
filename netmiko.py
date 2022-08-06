@@ -27,7 +27,7 @@ print("")
 
 #define the list of all devices where the config will be applied to. 
 #host_list.txt file must be saved in same folder. this file contains the IP address of the devices
-#see host_list_txt
+#see host_list.txt
 all-devices = open("host_list.txt")
 
 #applied the config file and print the output
